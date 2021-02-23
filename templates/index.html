@@ -16,7 +16,7 @@
         <h1 id="titulo">Register my Hobbies</h1>
     </header>
 
-    <form name="formulario" action="#" onsubmit="return processForm()" class="formulario">
+    <div class="formulario">
         <label for="name">Name: </label><br>
         <input type="text" id="name" name="name" placeholder="Insert your name..." />
         <br><br>
@@ -33,11 +33,13 @@
             <option value="WorkOut">Work out</option>
         </select>
         <br><br>
-        <input type="submit" value="Submit" />
-    </form>
+        <input type="submit" value="Submit" onclick="processForm()" />
+    </div>
+    <br>
 
+    <p id="result1">JavaScript result: </p>
+    <div id="result"></div>
     
-
     <script src="/static/script.js"></script>
 </body>
 

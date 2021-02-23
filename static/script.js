@@ -5,8 +5,7 @@ function processForm(){
     var hobby = document.getElementById("hobby").value;
 
     alert("Message is received");
-    var message = "Hello, my name is " + name + ", I am " + age.toString() + " and my hobby is " + hobby;
+    var message = "Hello, my name is " + name + ", I am " + age.toString() + " and my hobby is " + hobby + "."
 
-    alert(message);
     document.getElementById("result").innerHTML = message;
 }
